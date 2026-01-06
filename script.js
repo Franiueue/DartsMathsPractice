@@ -84,6 +84,7 @@ function suma(TD1, TD2, TD3, one, two, three){
                 redGreen.style.backgroundColor = "red";
             }
             //console.log(suma);
+            text.value = null;
         }
         let average = document.querySelector('.average');
         let outOf = document.querySelector('.outOf');
